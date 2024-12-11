@@ -1,0 +1,89 @@
+.containerSidebar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #000000;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: all 0.3s linear;
+  color: white;
+  transition: all 0.5s ease;
+}
+.containerSidebar.visible {
+  transform: translateX(0);
+}
+
+.containerSidebar.hidden {
+  transform: translateX(-100%);
+}
+.containerSidebar hr {
+  color: #848482;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+}
+.sub-first {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sub-first a {
+  color: #fff;
+}
+.sub-first img {
+  width: 35px;
+}
+.sub-second h3,
+.sub-third h3 {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.sub-first ul li a,
+.sub-second ul li a {
+  color: #fff;
+}
+.sub-second ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+}
+.music_icon {
+  border-radius: 50%;
+}
+.sidelink {
+  display: flex;
+  gap: 10px;
+}
+.sidelink p {
+  padding-top: 10px;
+}
+
+.sub-first ul img,
+.sub-second ul img {
+  width: 25px;
+  margin-right: 10px;
+}
+.sub_list img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.sub_list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.subscriber {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  font-size: 1rem;
+}

@@ -1,0 +1,18 @@
+.recommed-list {
+  padding-top: 10px;
+  display: grid;
+  height: 100%;
+}
+.r-list {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  padding: 5px;
+}
+.r-list img {
+  border-radius: 10px;
+  width: 150px;
+}
+.rec-v-info > p:nth-child(2) {
+  padding-top: 5px;
+}

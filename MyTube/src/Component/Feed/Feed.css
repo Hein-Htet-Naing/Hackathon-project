@@ -1,0 +1,27 @@
+.card_container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  padding: 10px;
+}
+.card_container a {
+  color: #000;
+}
+.card {
+  border-radius: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.txt {
+  text-align: start;
+  padding: 10px;
+}
+.txt h3,
+.txt h4,
+.txt p {
+  font-size: 16px;
+}
